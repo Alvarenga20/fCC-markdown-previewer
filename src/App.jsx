@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.scss'
-import ReactMarkdown from "./react-markdown";
+import ReactMarkdown from "react-markdown";
 
 const getMarkdown = () => {
   return `# Welcome to my React Markdown Previewer!
