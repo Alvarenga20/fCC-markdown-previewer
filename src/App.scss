@@ -1,0 +1,49 @@
+%boxes {
+  margin: 0 auto; 
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: burlywood;
+  padding: 20px;
+}
+
+#editorBox {
+  @extend %boxes;
+  width: 600px;
+  background-color: bisque;
+  height: 250px;
+}
+
+#editor {
+  padding: 20px;
+  width: 92%;
+  height: 200px;
+  resize: none;
+  background-color: bisque;
+}
+
+#prevBox {  
+  width: 700px;
+  @extend %boxes;
+  background-color: bisque;
+ 
+}
+
+#preview {
+  color: black;
+  padding: 10px;
+}
+
+#prevBox img {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
